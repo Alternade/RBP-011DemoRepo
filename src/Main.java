@@ -1,21 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         Main m1 = new Main();
-        m1.amnaHello();
-        m1.giteshHello();
-        m1.sonalHello();
-        m1.swapnilHello();
+        m1.sayHello("Amna");
+        m1.sayHello("Sonal");
+        m1.sayHello("Swapnil");
+        m1.sayHello("Gitesh");
     }
-    public void swapnilHello(){
-        System.out.println("Hello Swapnil");
-    }
-    public void giteshHello(){
-        System.out.println("Hello Gitesh");
-    }
-    public void amnaHello(){
-        System.out.println("Hello Amna");
-    }
-    public void sonalHello(){
-        System.out.println("Hello Sonal");
+    public void sayHello(String s1){
+        System.out.println("Hello "+s1);
     }
 }
